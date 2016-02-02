@@ -7,6 +7,6 @@ public class Travel {
     public String mostDestined;
     public int rating;
     public boolean uber = true;
-    public boolean airport = true;
+    public boolean airport;
 
 }
