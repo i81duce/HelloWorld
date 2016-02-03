@@ -1,6 +1,8 @@
 /**
  * Created by KevinBozic on 2/1/16.
  */
+// This class is just for personal practice
+
 public class Macbook {
 
     public int screenSize;
