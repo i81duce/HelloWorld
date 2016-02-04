@@ -55,8 +55,9 @@ public class NBA {
 
     public void setTeamRank(int newTeamRank) {
         if (newTeamRank >= 1 && newTeamRank <= 30) {
-            System.out.println("The " + teamName + " are " + teamRank + " overall.");
             teamRank = newTeamRank;
+            System.out.println("The " + teamName + " are " + teamRank + " overall.");
+
         }
     }
 }

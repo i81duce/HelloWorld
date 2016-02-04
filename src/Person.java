@@ -6,10 +6,10 @@ public class Person {
     public int age;
     public boolean isAlive = true;
     public String address;
+    //public String[] addresses = new String[10]; // This is initializing the num. of items in an array
+    //public static StreetAddress address;
 
-    public Person() {
 
-    }
 
     public Person(String name, int age) {
         this(name, age, true);
@@ -49,7 +49,9 @@ public class Person {
         isAlive = newIsAlive;
     }
 
-    public boolean isValidName(String name) {
+
+
+    public static boolean isValidName(String name) {
         return name.contains(" ");
     }
 

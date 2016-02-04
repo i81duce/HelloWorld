@@ -9,5 +9,16 @@ public class Television {
     public boolean smartFeature;
     public int refreshRate;
 
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String newModel) {
+        model = newModel;
+    }
+
+    public int getScreenSize() {
+        return screenSize;
+    }
 
 }
