@@ -9,7 +9,9 @@ public class Person {
     //public String[] addresses = new String[10]; // This is initializing the num. of items in an array
     //public static StreetAddress address;
 
+    public Person() {
 
+    }
 
     public Person(String name, int age) {
         this(name, age, true);
@@ -55,4 +57,13 @@ public class Person {
         return name.contains(" ");
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isAlive=" + isAlive +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }
