@@ -6,7 +6,7 @@ public class Exercise01 {
         String[] names = {"Alice", "Bob", "Charlie", "David", "Edward", "Albert", "Beth"};
         HashMap<Character, ArrayList<String>> nameMap = new HashMap<>();
 
-        // create empty arraylist
+        // create empty arrayList
         for (String name : names) {
             char firstLetter = name.charAt(0);
             nameMap.put(firstLetter, new ArrayList<String>());
