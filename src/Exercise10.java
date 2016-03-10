@@ -1,4 +1,4 @@
-public class Exercise10 {
+public class Exercise10 {                                           //IMPORTANT INTERVIEW QUESTION!!!!!!!
     public static void main(String[] args) throws Exception {
         String palindrome = "racecar";
         String nonPalindrome = "hello";
